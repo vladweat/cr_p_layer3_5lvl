@@ -1,10 +1,10 @@
 ## Требования к Layer3
 
 1. Подключен twitter
-   - Подписка на layer3
-   - Ретвит (https://twitter.com/layer3xyz/status/1562084669193068545)
+- Подписка на layer3
+- Ретвит (https://twitter.com/layer3xyz/status/1562084669193068545)
 2. Подключен discord
-   - Вход в дискорд (https://discord.com/invite/bzktXw3gE)
+- Вход в дискорд (https://discord.com/invite/bzktXw3gE)
 3. Установлен аватар
 
 ## Требования 
