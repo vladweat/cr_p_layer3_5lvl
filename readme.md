@@ -16,6 +16,7 @@
 
 - eth: минималка
 - polygon: ~3.9 matic
+- avax: ~0.2
 - optimism: ~1.8 usd
 - arbitrum: ~0.8 usd
 
