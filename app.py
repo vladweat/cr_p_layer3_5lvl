@@ -57,154 +57,154 @@ if __name__ == "__main__":
 
     if module == "module_11_a":
         for index in range(get_len_wallets()):
-            module_11_a(index)
+            module_11_a(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_11_b":
         for index in range(get_len_wallets()):
-            module_11_b(index)
+            module_11_b(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_11_c":
         for index in range(get_len_wallets()):
-            module_11_c(index)
+            module_11_c(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_13_a":
         for index in range(get_len_wallets()):
-            module_13_a(index)
+            module_13_a(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_13_b":
         for index in range(get_len_wallets()):
-            module_13_b(index)
+            module_13_b(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_13_c":
         for index in range(get_len_wallets()):
-            module_13_c(index)
+            module_13_c(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_13_d":
         for index in range(get_len_wallets()):
-            module_13_d(index)
+            module_13_d(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_13_e":
         for index in range(get_len_wallets()):
-            module_13_e(index)
+            module_13_e(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_13_f":
         for index in range(get_len_wallets()):
-            module_13_f(index)
+            module_13_f(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_13_g":
         for index in range(get_len_wallets()):
-            module_13_g(index)
+            module_13_g(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_13_h":
         for index in range(get_len_wallets()):
-            module_13_h(index)
+            module_13_h(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_16_a":
         for index in range(get_len_wallets()):
-            module_13_h(index)
+            module_16_a(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_16_b":
         for index in range(get_len_wallets()):
-            module_16_b(index)
+            module_16_b(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_16_c":
         for index in range(get_len_wallets()):
-            module_16_c(index)
+            module_16_c(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_17_a":
         for index in range(get_len_wallets()):
-            module_17_a(index)
+            module_17_a(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_17_b":
         for index in range(get_len_wallets()):
-            module_17_b(index)
+            module_17_b(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_17_c":
         for index in range(get_len_wallets()):
-            module_17_c(index)
+            module_17_c(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_17_d_1":
         for index in range(get_len_wallets()):
-            module_17_d_1(index)
+            module_17_d_1(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_17_d_2":
         for index in range(get_len_wallets()):
-            module_17_d_2(index)
+            module_17_d_2(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_17_e":
         for index in range(get_len_wallets()):
-            module_17_e(index)
+            module_17_e(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_17_f":
         for index in range(get_len_wallets()):
-            module_17_f(index)
+            module_17_f(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_17_g":
         for index in range(get_len_wallets()):
-            module_17_g(index)
+            module_17_g(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_17_h_1":
         for index in range(get_len_wallets()):
-            module_17_h_1(index)
+            module_17_h_1(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_17_h_2":
         for index in range(get_len_wallets()):
-            module_17_h_2(index)
+            module_17_h_2(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_17_i":
         for index in range(get_len_wallets()):
-            module_17_i(index)
+            module_17_i(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_17_j_1":
         for index in range(get_len_wallets()):
-            module_17_j_1(index)
+            module_17_j_1(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_17_j_2":
         for index in range(get_len_wallets()):
-            module_17_j_2(index)
+            module_17_j_2(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_17_k":
         for index in range(get_len_wallets()):
-            module_17_k(index)
+            module_17_k(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_18_a":
         for index in range(get_len_wallets()):
-            module_18_a(index)
+            module_18_a(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_18_b":
         for index in range(get_len_wallets()):
-            module_18_b(index)
+            module_18_b(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_18_c":
         for index in range(get_len_wallets()):
-            module_18_c(index)
+            module_18_c(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_18_d":
         for index in range(get_len_wallets()):
-            module_18_d(index)
+            module_18_d(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_18_e":
         for index in range(get_len_wallets()):
-            module_18_e(index)
+            module_18_e(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_18_f":
         for index in range(get_len_wallets()):
-            module_18_f(index)
+            module_18_f(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_18_g":
         for index in range(get_len_wallets()):
-            module_18_g(index)
+            module_18_g(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_18_h":
         for index in range(get_len_wallets()):
-            module_18_h(index)
+            module_18_h(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_21_a":
         for index in range(get_len_wallets()):
-            module_21_a(index)
+            module_21_a(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     if module == "module_21_b":
         for index in range(get_len_wallets()):
-            module_21_b(index)
+            module_21_b(address=get_wallet(index)[0], private_key=get_wallet(index)[1])
 
     logger.success(f"Завершено. Аккаунтов прогнано {get_len_wallets()}")

